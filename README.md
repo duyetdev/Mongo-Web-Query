@@ -11,6 +11,12 @@ Van-Duyet Le (lvduit08 at gmail.com)
 
 Home: http://lvduit.com
 
+Export data by filtering
+==============
+
+    wget -O export.json http://localhost:9000/api/query/export?keyword=galaxy+s6
+
+
 Screenshot
 -----
 
