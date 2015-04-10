@@ -36,6 +36,16 @@ exports.index = function(req, res) {
 };
 
 
+exports.export = function(req, res) {
+  var keyword = req.body.keyword || '';
+  var q = Content.find({ "content": { "$regex": keyword, "$options": "i" } });
+  q.exec(function(err,docs) { 
+      if (err) console.log(err);
+
+      return res.json(200, docs);
+  });
+}
+
 function handleError(res, err) {
   return res.send(500, err);
 }
