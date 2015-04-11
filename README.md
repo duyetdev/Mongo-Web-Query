@@ -20,7 +20,8 @@ Export data by filtering
 Screenshot
 -----
 
-<img src="http://i.imgur.com/QBkugFq.png" />
+<img src="http://i.imgur.com/5CsNK9D.png" />
+Screenshot at version 0.1.1
 
 License
 -------
