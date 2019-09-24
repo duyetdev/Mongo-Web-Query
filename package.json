@@ -43,7 +43,7 @@
     "grunt-usemin": "2.1.1",
     "grunt-env": "0.4.4",
     "grunt-node-inspector": "0.1.6",
-    "grunt-nodemon": "0.2.1",
+    "grunt-nodemon": "0.4.2",
     "grunt-angular-templates": "0.5.9",
     "grunt-dom-munger": "3.4.0",
     "grunt-protractor-runner": "1.2.1",
