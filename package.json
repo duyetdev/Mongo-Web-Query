@@ -48,7 +48,7 @@
     "grunt-dom-munger": "3.4.0",
     "grunt-protractor-runner": "1.2.1",
     "grunt-asset-injector": "0.1.0",
-    "grunt-karma": "0.8.3",
+    "grunt-karma": "3.0.2",
     "grunt-build-control": "DaftMonk/grunt-build-control",
     "grunt-mocha-test": "0.13.3",
     "jit-grunt": "0.10.0",
