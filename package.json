@@ -19,7 +19,7 @@
     "serve-favicon": "2.5.0",
     "socket.io": "1.7.4",
     "socket.io-client": "1.7.4",
-    "socketio-jwt": "2.3.5"
+    "socketio-jwt": "4.5.0"
   },
   "devDependencies": {
     "grunt": "1.0.4",
