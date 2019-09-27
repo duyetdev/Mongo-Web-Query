@@ -19,7 +19,8 @@
     "serve-favicon": "2.5.0",
     "socket.io": "1.7.4",
     "socket.io-client": "1.7.4",
-    "socketio-jwt": "4.5.0"
+    "socketio-jwt": "4.5.0",
+    "snyk": "^1.228.5"
   },
   "devDependencies": {
     "grunt": "1.0.4",
@@ -81,7 +82,10 @@
   "scripts": {
     "start": "node server/app.js",
     "test": "grunt test",
-    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
