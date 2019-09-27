@@ -55,7 +55,7 @@
     "time-grunt": "0.3.2",
     "grunt-express-server": "0.5.4",
     "grunt-open": "0.2.4",
-    "open": "0.0.5",
+    "open": "6.0.0",
     "jshint-stylish": "2.2.1",
     "connect-livereload": "0.6.1",
     "karma-ng-scenario": "1.0.0",
